@@ -15,5 +15,7 @@ account = BankAccount('12345' , 5000)
 account.deposit(2000)
 print(account.get_balance())
 
+#print(account.__balance) -> this line will give an error since __balance is a pvt variable
+
 
         
