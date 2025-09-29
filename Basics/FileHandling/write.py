@@ -1,0 +1,5 @@
+file = open('C:/Users/KIIT0001/Desktop/Python/Basics/FileHandling/files2.txt' , 'w')
+content = input('Enter a data to write: ')
+file.write(content)
+print('Data saved successfully.')
+file.close()
